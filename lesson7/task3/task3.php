@@ -1,5 +1,6 @@
 <?php
 
+// ассоциативный массив - товаров
 $mass =  Array(  
     Array( 'Product name' => 'Apple MacBook Pro 17',
             'Color' => 'Silver',
@@ -19,6 +20,7 @@ $mass =  Array(
             
 );
 
+// подключение файла
 include('table.tpl.php');
 
 ?>
