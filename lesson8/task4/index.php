@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             displayTreeRows($treeRows);
         }
 
-        // выход из Проверок
+        //  прерывание выполнения Cкрипта в случае, если Условие в Блоке else не выполнится
         exit;
     }
 }
